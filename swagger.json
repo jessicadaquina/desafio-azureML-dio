@@ -1,21 +1,58 @@
- {
-   "Inputs": { 
-     "data": [
-       {
-         "day": 1,
-         "mnth": 1,   
-         "year": 2022,
-         "season": 2,
-         "holiday": 0,
-         "weekday": 1,
-         "workingday": 1,
-         "weathersit": 2, 
-         "temp": 0.3, 
-         "atemp": 0.3,
-         "hum": 0.3,
-         "windspeed": 0.3 
-       }
-     ]    
-   },   
-   "GlobalParameters": 1.0
- }
+{
+    "id": "/subscriptions/60a33fdc-08d7-46ef-bf7f-fe0e7e0f4331/resourceGroups/LABAI900/providers/Microsoft.MachineLearningServices/workspaces/LABORATORIOAI900",
+    "name": "LABORATORIOAI900",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "location": "eastus",
+    "tags": {},
+    "etag": null,
+    "properties": {
+        "friendlyName": "LABORATORIOAI900",
+        "description": "",
+        "storageAccount": "/subscriptions/60a33fdc-08d7-46ef-bf7f-fe0e7e0f4331/resourceGroups/LABAI900/providers/Microsoft.Storage/storageAccounts/laboratorioai93665383005",
+        "keyVault": "/subscriptions/60a33fdc-08d7-46ef-bf7f-fe0e7e0f4331/resourceGroups/LABAI900/providers/Microsoft.Keyvault/vaults/laboratorioai99313803730",
+        "applicationInsights": "/subscriptions/60a33fdc-08d7-46ef-bf7f-fe0e7e0f4331/resourceGroups/LABAI900/providers/Microsoft.insights/components/laboratorioai94841565223",
+        "hbiWorkspace": false,
+        "tenantId": "238311e4-094e-4911-9943-b582ad93b26a",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled"
+        },
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "containerRegistry": "/subscriptions/60a33fdc-08d7-46ef-bf7f-fe0e7e0f4331/resourceGroups/LABAI900/providers/Microsoft.ContainerRegistry/registries/de710fdf1f874d86a717ba77bec5de1b",
+        "creationTime": "2024-01-31T14:48:51.4928913Z",
+        "notebookInfo": {
+            "resourceId": "2523ff8e58a44179b5b8019a7b0bcceb",
+            "fqdn": "ml-laboratorioai900-eastus-de710fdf-1f87-4d86-a717-ba77bec5de1b.eastus.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "de710fdf-1f87-4d86-a717-ba77bec5de1b",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "discoveryUrl": "https://eastus.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/60a33fdc-08d7-46ef-bf7f-fe0e7e0f4331/resourceGroups/LABAI900/providers/Microsoft.MachineLearningServices/workspaces/LABORATORIOAI900",
+        "sdkTelemetryAppInsightsKey": "f5784ccd-178d-4ecc-9998-b05841b44ae9"
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "a71588cc-cc8d-4f8e-96c8-f5a706bb55e8",
+        "tenantId": "238311e4-094e-4911-9943-b582ad93b26a"
+    },
+    "kind": "Default",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "systemData": {
+        "createdAt": "2024-01-31T14:48:51.4928913Z",
+        "createdBy": "jeeh_kl@hotmail.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-01-31T14:48:51.4928913Z",
+        "lastModifiedBy": "jeeh_kl@hotmail.com",
+        "lastModifiedByType": "User"
+    }
+}
